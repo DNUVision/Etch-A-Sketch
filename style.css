@@ -7,11 +7,26 @@
     border: 1px solid black;
 }
 
+#generator{
+    background: rgb(9, 121, 155);
+    color: #fff;
+    font-size: 16px;
+    padding: 5px 7px;
+    border-radius: 5px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container{
     display: flex;
     flex-wrap: wrap;
     width: 960px;
     gap: 10px;
+    margin-top: 20px;
 }
 
 .contained{
